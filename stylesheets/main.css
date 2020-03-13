@@ -1,0 +1,112 @@
+body {
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content-container {
+  width: 50%;
+  height: 1000px;
+  float: right;
+  opacity: 100%;
+}
+.background-container {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+  float: right;
+  opacity: 50%;
+}
+.header-container {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+/*   background-color: rgb(28,28,28); */
+}
+.title-container {
+  float: left;
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(28,28,28);
+}
+.login-container {
+  float: right;
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(28,28,28);
+}
+.section-container {
+  width: 100%;
+  height: 15px;
+  line-height: 12px;
+/*   background-color: rgb(161, 67, 0); */
+}
+.building-container {
+  display: inline-block;
+  float: left;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+.art-container {
+  margin: 0 auto 0 auto;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+.featured-container {
+  float: right;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+/* .home-text-container {
+  height: 15px;
+  line-height: 12px;
+  background-color: pink;
+} */
+
+h1.title {
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 1.1em;
+  padding-left: 2%;
+  vertical-align: middle;
+  max-width: 132px;
+  color: white;
+}
+p.login {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: .45em;
+  margin-right: 5px;
+  color: white;
+}
+p.building {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: .5em;
+  vertical-align: middle;
+  margin-left: 105px;
+  margin-right: 190px;
+  color: white;
+}
+p.art {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: .5em;
+  vertical-align: middle;
+  margin-right: 195px;
+  color: white;
+}
+p.featured {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: .5em;
+  vertical-align: middle;
+  color: white;
+}
